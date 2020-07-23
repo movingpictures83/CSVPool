@@ -1,0 +1,2 @@
+Prefix plugins/CSVPool/example
+Plugin CSVPool inputfile input.csv outputfile input.pooled.csv
