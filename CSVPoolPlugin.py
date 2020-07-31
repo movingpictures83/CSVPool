@@ -55,7 +55,7 @@ class CSVPoolPlugin:
          contents = line.split(',')
          row = contents[0]
          for i in range(1,len(contents)):
-            self.counts[row][self.colnames[i-1]] += int(contents[i])
+            self.counts[row][self.colnames[i-1]] += float(contents[i])
 
         
 
